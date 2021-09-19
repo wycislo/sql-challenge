@@ -49,7 +49,7 @@ print('employees')
 salaries_df.to_sql('salaries',engine,index=False,if_exists='append')
 print('salaries')
 titles_df.to_sql('titles',engine,index=False,if_exists='append')
-print('tities')
+print('titles')
 dept_df.to_sql('dept_emp',engine,index=False,if_exists='append')
 print('dept_emp')
 
