@@ -69,5 +69,9 @@ from employees
 group by last_name
 order by 1 desc
 
+-- 9. "Search your ID number." 
+select employees.first_name, employees.last_name, employees.emp_no
+from employees
+where employees.emp_no = 499942
 
 
